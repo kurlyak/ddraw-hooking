@@ -1,0 +1,24 @@
+LIBRARY "ddraw"
+EXPORTS
+AcquireDDThreadLock			= MyAcquireDDThreadLock			@1
+CheckFullscreen				= MyCheckFullscreen				@2
+CompleteCreateSysmemSurface	= MyCompleteCreateSysmemSurface	@3
+D3DParseUnknownCommand		= MyD3DParseUnknownCommand		@4
+DDGetAttachedSurfaceLcl		= MyDDGetAttachedSurfaceLcl		@5
+DDInternalLock				= MyDDInternalLock				@6
+DDInternalUnlock			= MyDDInternalUnlock			@7
+DSoundHelp					= MyDSoundHelp					@8
+DirectDrawCreate			= MyDirectDrawCreate			@9
+DirectDrawCreateClipper		= MyDirectDrawCreateClipper		@10
+DirectDrawCreateEx			= MyDirectDrawCreateEx			@11
+DirectDrawEnumerateA		= MyDirectDrawEnumerateA		@12
+DirectDrawEnumerateExA		= MyDirectDrawEnumerateExA		@13
+DirectDrawEnumerateExW		= MyDirectDrawEnumerateExW		@14
+DirectDrawEnumerateW		= MyDirectDrawEnumerateW		@15
+DllCanUnloadNow				= MyDllCanUnloadNow				PRIVATE
+DllGetClassObject			= MyDllGetClassObject			PRIVATE
+GetDDSurfaceLocal			= MyGetDDSurfaceLocal			@18
+GetOLEThunkData				= MyGetOLEThunkData				@19
+GetSurfaceFromDC			= MyGetSurfaceFromDC			@20
+RegisterSpecialCase			= MyRegisterSpecialCase			@21
+ReleaseDDThreadLock			= MyReleaseDDThreadLock			@22
